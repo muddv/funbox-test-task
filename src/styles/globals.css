@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Exo 2', sans-serif;
+    src: url("../assets/Exo2.0-Thin.woff2") format("woff2");
+  }
+  h1 {
+    font-family: 'Exo 2', sans-serif;
+  }
+}
+
+@layer utilities {
+  .product-card {
+    clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
+  }
+}
